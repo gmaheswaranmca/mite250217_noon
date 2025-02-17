@@ -1,1 +1,34 @@
+`2. Toll Tax Calculation for Vehicles`  
+`Problem Statement:`  
+A highway toll management system needs a program 
+to calculate toll tax 
+based on `vehicle type and distance traveled`:  
 
+1. `Vehicle Type & Base Charges:`  
+   - Car → ₹5 per km  
+   - Truck → ₹10 per km  
+   - Bus → ₹8 per km  
+2. If a `truck` travels `more than 500 km`, a `10% discount` applies.  
+3. If a `bus` travels `more than 300 km`, a `5% discount` applies.  
+
+`Requirements:`  
+1. `Input:`  
+   - Vehicle Type (Car/Truck/Bus)  
+   - Distance Traveled (km)  
+2. `Output:`  
+   - Total Toll Tax  
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Enter Vehicle Type (Car/Truck/Bus): Truck  
+Enter Distance Traveled: 600  
+```
+`Output:`  
+```plaintext
+Vehicle Type: Truck  
+Distance Traveled: 600 km  
+Base Charge: ₹6000  
+Discount: ₹600  
+Total Toll Tax: ₹5400  
+```
