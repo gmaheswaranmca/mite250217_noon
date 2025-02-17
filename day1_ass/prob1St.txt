@@ -1,0 +1,21 @@
+`1. Employee Salary Classification`  
+`Scenario:`  
+A company wants to `classify its employees' salaries` 
+based on their earnings. Given the salary of `N` employees, 
+write a program to categorize them as:  
+- `Low income`: Salary < 30,000  
+- `Middle income`: Salary between 30,000 and 70,000  
+- `High income`: Salary > 70,000  
+
+`Input Example:`  
+```
+Enter the number of employees: 5
+Enter salaries: 25000 45000 80000 32000 60000
+```
+
+`Output Example:`  
+```
+Low Income: 1
+Middle Income: 3
+High Income: 1
+```

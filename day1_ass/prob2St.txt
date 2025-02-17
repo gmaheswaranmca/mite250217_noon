@@ -1,0 +1,18 @@
+`2. Electricity Bill Calculation`  
+`Scenario:`  
+A power company charges customers based on their `electricity consumption`:  
+- `First 100 units`: ₹2 per unit  
+- `Next 100 units`: ₹3 per unit  
+- `Beyond 200 units`: ₹5 per unit  
+
+Write a program that calculates the `total electricity bill` for `N` customers.
+
+`Input Example:`  
+```
+Enter units consumed: 250
+```
+
+`Output Example:`  
+```
+Total Bill: ₹850
+```
