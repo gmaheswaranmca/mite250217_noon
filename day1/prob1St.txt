@@ -1,0 +1,42 @@
+`1. Electricity Bill Calculation`  
+`Problem Statement:`  
+A power distribution company wants 
+to automate electricity bill generation 
+based on the following rules:  
+
+1. `Fixed charge = ₹100` for all consumers.  
+2. `Rate per unit:`  
+   - `Up to 100 units` → ₹5 per unit  
+   - `101 to 300 units` → ₹7 per unit  
+   - `Above 300 units` → ₹10 per unit  
+3. `If the total bill exceeds ₹1000, add a 5% surcharge.`  
+4. The program should display 
+`customer details, total units consumed, 
+bill amount, and surcharge (if any).`  
+
+`Requirements:`  
+1. `Input:`  
+   - Customer Name  
+   - Customer ID  
+   - Total Units Consumed  
+2. `Output:`  
+   - Base Bill  
+   - Surcharge (if applicable)  
+   - Total Bill  
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Enter Customer Name: Amit Sharma  
+Enter Customer ID: 2025  
+Enter Total Units Consumed: 350  
+```
+`Output:`  
+```plaintext
+Customer Name: Amit Sharma  
+Customer ID: 2025  
+Units Consumed: 350  
+Base Bill: ₹3050  
+Surcharge: ₹152.5  
+Total Bill: ₹3202.5  
+```
