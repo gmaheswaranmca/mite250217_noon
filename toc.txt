@@ -1,0 +1,49 @@
+CRITICAL THINKING AND PROBLEM SOLVING USING C
+Course Learning Objectives:
+•	Develop a strong foundation in C programming from basic to intermediate level.
+•	Strengthen problem-solving skills through structured programming techniques.
+•	Apply data structures and algorithms using C for computational problem-solving.
+Day 1: introduction to industry insights and best coding practices, 
+	C Fundamentals & Control Flow
+	•	Equip participants with the mindset and skills required 
+        to solve real-world problems using computational thinking and structured methodologies.
+	•	Gain insights into industry-standard approaches and problem-solving techniques.
+	•	Develop the ability to analyze and solve problems efficiently.
+	•	Understand complexity analysis and explore various platforms for implementation.
+	•	Structure, compilation process, variables & data types, Control statements: Loops (for, while, do-while)
+	•	Hands-on: Basic programs involving loops, conditionals, and I/O
+Day 2: Functions & Pointers
+	•	Decision-making (if-else, switch)
+	•	Functions: User-defined functions, recursion, call by value & reference
+	•	Pointers: Basics, pointer arithmetic, dynamic memory allocation (malloc, free)
+	•	Hands-on: Implementing pointer-based functions & recursive programs
+Day 3: Arrays & Strings
+	•	One-dimensional & multi-dimensional arrays: Sorting & searching techniques
+	•	Strings: String handling functions, manipulation, palindrome check
+	•	Hands-on: Implementing array-based problems and string operations
+Day 4: Structures, Unions & File Handling
+	•	Structures & Unions: Defining and using structures, nested structures
+	•	File Handling: File I/O operations, reading/writing from files
+	•	Hands-on: Creating structured data storage using files
+Day 5: Stacks, Queues & Linked Lists
+	•	Stack & Queue implementation using arrays and linked lists
+	•	Linked lists: Singly & doubly linked list operations (insert, delete, reverse)
+	•	Hands-on: Implementing linked list operations and queue problems
+Day 6: Searching, Sorting & Problem Solving
+	•	Searching: Linear & binary search techniques
+	•	Sorting: Bubble sort, insertion sort, selection sort
+	•	Hands-on: Applying sorting & searching algorithms to solve real-world problems
+Course Outcomes:
+•	Strong understanding of C programming fundamentals and structured coding.
+•	Ability to implement basic data structures and algorithms in C.
+•	Hands-on experience in solving computational problems using C.
+``` 
+
+Let me know the scenario based problems for the above contents
+and day wise also. Can you try for first day as of now.
+  
+For example, the below scenario is suggested from institute. 
+Do sorting for the data of all india cbse's students based on highest total score.
+State wise sorting based on highest total score. 
+Display state wise two toppers details with marks and total.
+And dislay two toppers from india.
