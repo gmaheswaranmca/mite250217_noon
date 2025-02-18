@@ -1,0 +1,37 @@
+`1. Hospital Billing System (Using Functions & Decision-Making)`
+`Problem Statement:`  
+A hospital needs a program to calculate a patient’s bill 
+based on `ward type and number of days admitted.`  
+
+1. `Charges per Day:`  
+   - General Ward → ₹1000  
+   - Semi-Private → ₹2000  
+   - Private → ₹5000  
+2. `If the patient stays for more than 7 days, 
+they get a `5% discount` on the total bill.  
+3. Use `functions` for bill calculation.  
+
+`Requirements:`  
+- `Input:`  
+  - Patient Name  
+  - Ward Type (General/Semi-Private/Private)  
+  - Number of Days Admitted  
+- `Output:`  
+  - Total Bill (Before and After Discount)  
+
+`Function Prototype Example:`  
+```c
+float calculateBill(char wardType, int days);
+```
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Enter Patient Name: Rajesh  
+Enter Ward Type (G/S/P): S  
+Enter Number of Days: 8  
+```
+`Output:`  
+```plaintext
+Patient Name: Rajesh  
+Bill Amount: ₹15200  
