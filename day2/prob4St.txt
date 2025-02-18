@@ -1,0 +1,19 @@
+`4. Factorial Calculation (Using Recursion)`
+`Problem Statement:`  
+Write a program using a `recursive function` 
+to compute the `factorial` of a given number.  
+
+`Function Prototype:`  
+```c
+long factorial(int n);
+```
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Enter a number: 5  
+```
+`Output:`  
+```plaintext
+Factorial of 5 is 120  
+```

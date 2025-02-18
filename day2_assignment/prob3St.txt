@@ -1,0 +1,24 @@
+`3. ATM Transaction System`  
+`Scenario:`  
+An ATM allows users to:  
+1. `Withdraw Money`  
+2. `Deposit Money`  
+3. `Check Balance`  
+
+Use a `function with switch-case` 
+to `simulate an ATM transaction`.
+
+`Input Example:`  
+```
+Enter your choice:
+1. Withdraw
+2. Deposit
+3. Check Balance
+Choice: 1
+Enter Amount: 2000
+```
+
+`Output Example:`  
+```
+Transaction Successful. Remaining Balance: ₹8000
+```

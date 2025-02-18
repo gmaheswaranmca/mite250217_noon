@@ -1,0 +1,24 @@
+`1. Medical Insurance Eligibility Checker`  
+`Scenario:`  
+A hospital wants to check 
+if a `patient qualifies 
+for insurance coverage` based on these conditions:  
+- Age `between 18 and 60`  
+- No `pre-existing health condition` (yes/no)  
+- Monthly salary `≥ ₹25,000`  
+
+Write a program using a `function` 
+to check if a patient is eligible 
+for `medical insurance`.
+
+`Input Example:`  
+```
+Enter Age: 45
+Any Pre-existing Condition? (yes/no): no
+Enter Monthly Salary: 30000
+```
+
+`Output Example:`  
+```
+Eligible for Medical Insurance
+```

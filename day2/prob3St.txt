@@ -1,0 +1,25 @@
+`3. Memory Management for Student Marks (Using Dynamic Memory Allocation)`
+`Problem Statement:`  
+A school wants to dynamically allocate memory 
+for `N students` and store their `marks` using `malloc()`.  
+
+1. Read `N` students’ marks.  
+2. Find the `average marks`.  
+3. Free the allocated memory using `free()`.  
+
+`Function Prototype Example:`  
+```c
+void inputMarks(int *marks, int n);
+float calculateAverage(int *marks, int n);
+```
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Enter number of students: 3  
+Enter marks: 78 85 90  
+```
+`Output:`  
+```plaintext
+Average Marks: 84.33  
+```

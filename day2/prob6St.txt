@@ -1,0 +1,29 @@
+`6. Temperature Conversion (Using Functions & Switch Case)`
+`Problem Statement:`  
+Create a `menu-driven` program
+to `convert temperatures` 
+using switch-case and functions.  
+
+1. `Celsius to Fahrenheit:` `(C × 9/5) + 32`  
+2. `Fahrenheit to Celsius:` `(F - 32) × 5/9`  
+3. `Celsius to Kelvin:` `C + 273.15`  
+
+`Function Prototype Example:`  
+```c
+float convertTemperature(float temp, int choice);
+```
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Enter Temperature: 25  
+Choose Conversion:  
+1. Celsius to Fahrenheit  
+2. Fahrenheit to Celsius  
+3. Celsius to Kelvin  
+Enter Choice: 1  
+```
+`Output:`  
+```plaintext
+Temperature in Fahrenheit: 77.00  
+```

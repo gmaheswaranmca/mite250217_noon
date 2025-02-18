@@ -1,0 +1,23 @@
+`5. Student Database Using Pointers`  
+`Scenario:`  
+A college maintains student records using pointers. The program should:  
+- Store `Student Name` and `Marks`  
+- Print all student details  
+
+Use `pointers` to allocate memory dynamically.
+
+`Input Example:`  
+```
+Enter number of students: 2
+Enter Student 1 Name: Alice
+Enter Marks: 85
+Enter Student 2 Name: Bob
+Enter Marks: 90
+```
+
+`Output Example:`  
+```
+Student Records:
+Alice - 85
+Bob - 90
+```

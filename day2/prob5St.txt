@@ -1,0 +1,21 @@
+`5. Swapping Two Numbers (Using Call by Reference)`
+`Problem Statement:`  
+Write a program to swap two numbers 
+using `call by reference` (pointers).  
+
+`Function Prototype:`  
+```c
+void swap(int *a, int *b);
+```
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Enter two numbers: 5 10  
+```
+`Output:`  
+```plaintext
+After Swapping:  
+First Number: 10  
+Second Number: 5  
+```
