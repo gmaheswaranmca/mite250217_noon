@@ -1,0 +1,19 @@
+`2. Reverse a String (Using Pointers)`
+`Problem Statement:`  
+Write a function that reverses a `string using pointers` 
+without using inbuilt functions.  
+
+`Function Prototype:`  
+```c
+void reverseString(char *str);
+```
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Enter a string: Hello  
+```
+`Output:`  
+```plaintext
+Reversed String: olleH  
+```
