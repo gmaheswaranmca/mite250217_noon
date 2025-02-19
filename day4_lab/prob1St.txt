@@ -1,0 +1,26 @@
+`1. Library Book Management System`  
+`Scenario:`  
+A `library system` maintains `N books` with titles. The system should:  
+- Sort books alphabetically  
+- Search for a `specific book`  
+
+Use `string handling functions` and `sorting techniques`.
+
+`Input Example:`  
+```
+Enter number of books: 4
+Book Titles:
+1. Data Structures
+2. C Programming
+3. Machine Learning
+4. Artificial Intelligence
+
+Sorted List:
+1. Artificial Intelligence
+2. C Programming
+3. Data Structures
+4. Machine Learning
+
+Enter book title to search: Machine Learning
+Book found in the library.
+```

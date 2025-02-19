@@ -1,0 +1,19 @@
+`3. Check If a String Is a Palindrome`
+`Problem Statement:`  
+A `palindrome` is a word or sentence that reads the same forward and backward.  
+Write a program to check if a given string is a `palindrome (ignoring case & spaces)`.  
+
+`Function Prototype:`  
+```c
+int isPalindrome(char str[]);
+```
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Enter a string: Racecar  
+```
+`Output:`  
+```plaintext
+Yes, it's a palindrome.  
+```

@@ -1,0 +1,20 @@
+`3. Employee Salary Statistics`  
+`Scenario:`  
+A company records `N employee salaries`. The system should:  
+- Sort salaries in `ascending order`  
+- Find the `second highest salary`  
+- Calculate the `total payroll`  
+
+Use `arrays and sorting techniques`.
+
+`Input Example:`  
+```
+Enter salaries of 5 employees: 35000 42000 28000 50000 39000
+```
+
+`Output Example:`  
+```
+Sorted Salaries: 28000 35000 39000 42000 50000
+Second Highest Salary: 42000
+Total Payroll: ₹1,94,000
+```

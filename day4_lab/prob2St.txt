@@ -1,0 +1,32 @@
+`2. Hospital Emergency Room System`  
+`Scenario:`  
+A `hospital ER` maintains `N patient names 
+with emergency levels` 
+(1 to 5, where 5 is the highest). The system should:  
+- Sort patients based on `emergency level (descending order)`  
+- Display the `top 3 critical patients`  
+
+Use `arrays and sorting`.
+
+`Input Example:`  
+```
+Enter number of patients: 5
+Patient Data:
+1. Alice - Level 3
+2. Bob - Level 5
+3. Charlie - Level 2
+4. David - Level 4
+5. Eve - Level 5
+
+Sorted by Emergency Level:
+1. Bob - Level 5
+2. Eve - Level 5
+3. David - Level 4
+4. Alice - Level 3
+5. Charlie - Level 2
+
+Top 3 Critical Patients:
+1. Bob
+2. Eve
+3. David
+```

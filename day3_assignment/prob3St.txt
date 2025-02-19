@@ -1,0 +1,20 @@
+`3. Cricket Scoreboard System`  
+`Scenario:`  
+A `cricket club` records match scores in an array. 
+The system should:  
+- Find the `highest and lowest score`  
+- Calculate the `average score`  
+
+Use `arrays` for data storage and `looping techniques` for computation.
+
+`Input Example:`  
+```
+Enter scores of 5 matches: 245 189 320 270 150
+```
+
+`Output Example:`  
+```
+Highest Score: 320
+Lowest Score: 150
+Average Score: 234.8
+```

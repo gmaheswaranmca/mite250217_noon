@@ -1,0 +1,20 @@
+`5. Find a Substring in a Given String`
+`Problem Statement:`  
+Write a function to `find a substring` within a given string.  
+- Return the `position (index)` of the substring if found, otherwise return `-1`.  
+
+`Function Prototype:`  
+```c
+int findSubstring(char str[], char sub[]);
+```
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Enter main string: Hello, welcome to C programming  
+Enter substring: welcome  
+```
+`Output:`  
+```plaintext
+Substring found at index: 7  
+```

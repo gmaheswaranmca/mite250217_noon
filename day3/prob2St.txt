@@ -1,0 +1,31 @@
+`2. Student Marks Sorting (Using 2D Arrays)`
+`Problem Statement:`  
+A college stores student marks in a `2D array` where:  
+- `Rows represent students`  
+- `Columns represent subjects`  
+1. Read marks for `N students` across `M subjects`.  
+2. Calculate and display each student's `total marks`.  
+3. Sort students in `descending order of total marks`.  
+
+`Function Prototypes:`  
+```c
+void calculateTotalMarks(int marks[][M], int n, int totalMarks[]);
+void sortStudents(int totalMarks[], int n);
+```
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Enter number of students: 3  
+Enter number of subjects: 3  
+Enter marks:  
+Student 1: 70 80 90  
+Student 2: 85 90 95  
+Student 3: 60 70 75  
+```
+`Output:`  
+```plaintext
+Student 2: Total Marks = 270  
+Student 1: Total Marks = 240  
+Student 3: Total Marks = 205  
+```
