@@ -1,0 +1,21 @@
+`2. Online Shopping Order Processing`  
+`Scenario:`  
+An `online shopping system` records orders with `Order ID, Customer Name, Product, and Amount`. The system should:  
+- Store and update orders using `structures`  
+- Write order details to a `file`  
+- Allow `retrieval of order details`  
+
+`Input Example:`  
+```
+Enter number of orders: 2
+Order 1: 301, Alice, Laptop, ₹60000
+Order 2: 302, Bob, Mobile, ₹25000
+
+Enter Order ID to search: 301
+```
+
+`Output Example:`  
+```
+Order Found: Alice - Laptop - ₹60000
+Record saved in "orders.txt"
+```

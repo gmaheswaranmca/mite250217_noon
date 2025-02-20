@@ -1,0 +1,24 @@
+`1. University Student Record Management`  
+`Scenario:`  
+A `university` maintains student records, 
+including `Roll No, Name, Course, and Marks`. 
+The system should:  
+- Store details using `structures`  
+- Save records to a `file`  
+- Allow searching for a `student by Roll No`  
+
+`Input Example:`  
+```
+Enter number of students: 3
+Student 1: 101, Alice, Computer Science, 85
+Student 2: 102, Bob, Mechanical, 90
+Student 3: 103, Charlie, Electrical, 78
+
+Enter Roll No to search: 102
+```
+
+`Output Example:`  
+```
+Student Found: Bob, Mechanical, Marks: 90
+Record saved in "students.txt"
+```

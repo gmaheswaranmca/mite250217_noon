@@ -1,0 +1,25 @@
+`4. Append Student Records to a File`  
+`Problem Statement:`  
+Modify the previous `Student Report Card` problem to:  
+1. Store records in a file (`students.txt`).  
+2. Allow users to `append` new student data.  
+
+`Function Prototype:`  
+```c
+void appendStudentRecord();
+void displayStudentRecords();
+```
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Appending student:  
+3, Sam, 85, 90, 88  
+```
+`Output (from file):`  
+```plaintext
+Student Records:  
+1 Mike 80 90 85  
+2 Sarah 95 98 92  
+3 Sam 85 90 88  
+```

@@ -1,0 +1,23 @@
+`3. Weather Monitoring System`  
+`Scenario:`  
+A `weather station` records temperature and humidity 
+for `different cities`. The system should:  
+- Store records using `structures`  
+- Allow searching for `temperature of a specific city`  
+- Save data to a `file`  
+
+`Input Example:`  
+```
+Enter number of cities: 3
+City 1: Mumbai, 32°C, 80%
+City 2: Delhi, 38°C, 60%
+City 3: Chennai, 35°C, 75%
+
+Enter city name to search: Delhi
+```
+
+`Output Example:`  
+```
+Weather in Delhi: 38°C, 60% Humidity
+Data saved in "weather_data.txt"
+```

@@ -1,0 +1,26 @@
+`2. Read & Write Employee Records to a File`  
+`Problem Statement:`  
+Using `file handling`, write a program to:  
+1. Read `N` employees and store them in a file `"employees.txt"`.  
+2. Read data back from the file and display it.  
+
+`Function Prototypes:`  
+```c
+void writeToFile(Employee emp[], int n);
+void readFromFile();
+```
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Enter number of employees: 2  
+Enter details (ID, Name, Salary):  
+101 John 50000  
+102 Alice 60000  
+```
+`Output (from file):`  
+```plaintext
+Employees Data from File:  
+101 John 50000  
+102 Alice 60000  
+```

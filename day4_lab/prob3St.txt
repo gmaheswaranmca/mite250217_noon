@@ -1,0 +1,22 @@
+`2. Count Number of Words & Lines in a File`  
+`Problem Statement:`  
+Write a C program that:  
+1. Reads a `text file`.  
+2. Counts and displays the `number of words and lines`.  
+
+`Function Prototype:`  
+```c
+void countWordsAndLines(char filename[]);
+```
+
+`Sample Test Case:`  
+`Input File (data.txt):`  
+```plaintext
+Hello World!  
+This is a test file.  
+```
+`Output:`  
+```plaintext
+Total Lines: 2  
+Total Words: 6  
+```

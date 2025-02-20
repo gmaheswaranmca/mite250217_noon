@@ -1,0 +1,31 @@
+`1. Student Report Card using Nested Structures`  
+`Problem Statement:`  
+Define a `nested structure` where:  
+- `Student` structure contains `ID`, `Name`, and `Marks` 
+(another structure with `3 subjects`).  
+- Write a program to:  
+  1. Read student details for `N students`.  
+  2. Compute their `total marks` and `average`.  
+  3. Display details along with `grade classification` 
+  (`A` for >=90%, `B` for 75-89%, etc.).  
+
+`Function Prototypes:`  
+```c
+void readStudents(Student students[], int n);
+void calculateGrades(Student students[], int n);
+void displayStudents(Student students[], int n);
+```
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Enter number of students: 2  
+Enter details (ID, Name, Marks in 3 subjects):  
+1 Mike 80 90 85  
+2 Sarah 95 98 92  
+```
+`Output:`  
+```plaintext
+Mike - Total: 255, Average: 85, Grade: B  
+Sarah - Total: 285, Average: 95, Grade: A  
+```
