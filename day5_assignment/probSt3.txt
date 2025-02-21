@@ -1,0 +1,16 @@
+`3. Hospital Patient Management System`  
+`Scenario:`  
+A `hospital` maintains patient records using a `doubly linked list`. The system should:  
+- Add `new patients`  
+- Allow `forward and backward navigation`  
+- Remove `discharged patients`  
+
+`Operations Example:`  
+```
+New Patient Admitted: John (ID 201)  
+New Patient Admitted: Mary (ID 202)  
+New Patient Admitted: David (ID 203)  
+
+Discharging: Mary  
+Remaining Patients: John ↔ David  
+```
