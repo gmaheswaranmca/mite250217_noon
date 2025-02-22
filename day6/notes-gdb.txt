@@ -1,0 +1,36 @@
+
+To use onlinegdb debugger:
+1. "Debug" command will run the debugger  
+    We will have debugger console 
+    and debugger right side panel
+2. debugger console will have further commands 
+    like 
+    Start Continue StepInto StepOver StepOut 
+3. To set the breakpoint inside for loop 
+    click before the linenumber inside the for loop 
+   i. Click "Start" command to run the debugger 
+   ii. The execution will come inside the for loop
+    and stops at break point 
+   iii. set the variables in "Display Expressions" section 
+    like 
+        I 
+        salaries[I]
+        searchSalary
+        salaries[I] == searchSalary
+    continue again and again we will 
+    trace the display variables to learn the code 
+    or logic 
+To use gdb:
+    gcc -g main.c
+    gdb commands 
+        run "to start the debuggig" 
+        continue "to continue from breakpoint 
+                  to next breakpoint" 
+        b 13        "set the breakpoint at line# 13"
+        info breakpoints 
+        d 1        "deletes the breakpoint based on 
+                    breakpoint number"
+        display I 
+        display salaries[I]
+        display searchSalary
+        display salaries[I] == searchSalary

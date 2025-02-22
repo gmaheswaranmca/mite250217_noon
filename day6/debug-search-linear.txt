@@ -1,0 +1,14 @@
+20.0f, 10.0f, 15.0f, 12.0f, 13.0f
+
+
+salaries: 20.0f, 10.0f, 15.0f, 12.0f, 13.0f
+            0     1      2       3     4
+
+
+searchSalary = 15
+
+I       salaries[I]     salaries[I]==searchSalary 
+0            20             20==15?0
+1            10             10==15?0
+2            15             15==15?1   
+searchLinear returns 2
