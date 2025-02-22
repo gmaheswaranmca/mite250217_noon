@@ -1,0 +1,57 @@
+
+`1. Movie Recommendation System (Sorting by Rating)`  
+`Scenario:`  
+A `movie streaming platform` sorts and suggests movies based on user ratings. The system should:  
+- Sort `movies based on ratings` (descending)  
+- Allow `linear search` for a movie by name  
+- Display `the top 3 movies`  
+
+`Operations Example:`  
+```
+Movies: 
+[{"Title": "Movie A", "Rating": 8.5}, 
+ {"Title": "Movie B", "Rating": 9.2}, 
+ {"Title": "Movie C", "Rating": 7.8}]
+
+Sorted by Rating: Movie B (9.2), Movie A (8.5), Movie C (7.8)
+Search 'Movie A': Found (Rating: 8.5)
+```
+
+---
+
+`2. Inventory Management System`  
+`Scenario:`  
+A `retail store` manages products in stock using sorting techniques. The system should:  
+- Sort `items based on quantity available` (ascending)  
+- Search `for an item by name` using `binary search`  
+- Display `items running low on stock (< 5 units)`  
+
+`Operations Example:`  
+```
+Inventory: 
+[{"Item": "Sugar", "Quantity": 50}, 
+ {"Item": "Salt", "Quantity": 3}, 
+ {"Item": "Oil", "Quantity": 10}]
+
+Sorted by Quantity: Salt (3), Oil (10), Sugar (50)
+Search 'Oil': Found (Quantity: 10)
+Low Stock Items: Salt (3)
+```
+
+---
+
+`3. Railway Ticket Booking – Seat Availability Search`  
+`Scenario:`  
+A `railway reservation system` allows passengers 
+to check seat availability. The system should:  
+- Sort `seat numbers` (ascending order)  
+- Search `for a specific seat number` using `binary search`  
+- Display `the next available seat`  
+
+`Operations Example:`  
+```
+Available Seats: [45, 12, 78, 23, 56]
+Sorted: [12, 23, 45, 56, 78]
+Search Seat 23: Found (Available)
+Next Available Seat: 45
+```
